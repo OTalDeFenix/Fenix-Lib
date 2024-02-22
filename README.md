@@ -1,13 +1,11 @@
 # FenixLib
 
-FenixLib is a custom Python library designed to provide various functionalities for data processing and management. It offers a range of tools that can be utilized for a wide array of tasks, providing flexibility and convenience in your Python projects.
+FenixLib is my Python library designed to provide various functionalities that i use often.
 
 ## Features
 
-- **Configuration Management**: Easily manage configuration files using configparser for seamless integration with your projects.
-- **File Handling**: Streamline file operations with built-in functions for reading, writing, and manipulating files.
-- **GUI Support**: Incorporate graphical user interfaces into your applications using tkinter for a user-friendly experience.
-- **Customization**: Extend and modify FenixLib to suit your specific project requirements, making it a versatile solution for diverse applications.
+- **Returning paths**: Return a path to a file then add it to a config file so you dont need to select it everytime.
+- **W.I.P.**: I will code more things and add to it everytime i need a new function to use more often.
 
 ## Installation
 
