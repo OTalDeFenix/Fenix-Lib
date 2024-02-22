@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "Fenix Lib"
+version = "1.0"
+authors = [
+  { name="Fenix", email="arthurhcastanha@gmail.com" },
+]
+description = "My first lib for my personal projects"
+readme = "README.md"
+requires-python = ">=3.11.4"
+classifiers = [
+    "Programming Language :: Python :: 3.11.4",
+    "License :: OSI Approved :: MIT License",
+]
+
+[project.urls]
+Homepage = "https://github.com/OTalDeFenix/Fenix-Lib"
+Issues = "https://github.com/OTalDeFenix/Fenix-Lib/issues"
