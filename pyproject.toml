@@ -15,6 +15,8 @@ classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
 ]
+[tool.poetry.dependencies]
+beautifulsoup4 = "4.12.3"
 
 [project.urls]
 Homepage = "https://github.com/OTalDeFenix/Fenix-Lib"
