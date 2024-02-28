@@ -19,13 +19,11 @@ def OpenFileMemory():
 		path = config.get('EXCEL', 'Local_da_tabela')
 		return path
 
-def WriteForDebug(VaribleToDebug, FileNameForDebug):
-	if not isinstance(FileNameForDebug, str):
-		raise TypeError("O argumento deve ser uma string.")	
+def WriteForDebug(VaribleToDebug, FileNameForDebug):	
 	FileDebug = FileNameForDebug
 	config = configparser.ConfigParser()
 	config.add_section('DEBUG')
-	config.set('DEBUG', VaribleToDebug)
+	config.set('DEBUG', 'variavel', VaribleToDebug)
 	with open(FileDebug, 'w') as DebugFile:
 		config.write(DebugFile)
     
