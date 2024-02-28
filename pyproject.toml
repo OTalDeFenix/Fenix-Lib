@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "fenixlib"
-version = "1.1.1"
+version = "1.1.2"
 authors = [
   { name="Fenix", email="arthurhcastanha@gmail.com" },
 ]
@@ -15,8 +15,7 @@ classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
 ]
-[tool.poetry.dependencies]
-beautifulsoup4 = "4.12.3"
+
 
 [project.urls]
 Homepage = "https://github.com/OTalDeFenix/Fenix-Lib"

@@ -20,7 +20,9 @@ def OpenFileMemory():
 		return path
 
 def WriteForDebug(VaribleToDebug, FileNameForDebug):
-	FileDebug = FileNameForDebug()
+	if not isinstance(FileNameForDebug, str):
+		raise TypeError("O argumento deve ser uma string.")	
+	FileDebug = FileNameForDebug
 	config = configparser.ConfigParser()
 	config.add_section('DEBUG')
 	config.set('DEBUG', VaribleToDebug, filedialog.askopenfilename())
