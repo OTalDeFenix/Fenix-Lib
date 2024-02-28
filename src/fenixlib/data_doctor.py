@@ -25,7 +25,7 @@ def WriteForDebug(VaribleToDebug, FileNameForDebug):
 	FileDebug = FileNameForDebug
 	config = configparser.ConfigParser()
 	config.add_section('DEBUG')
-	config.set('DEBUG', VaribleToDebug, filedialog.askopenfilename())
+	config.set('DEBUG', VaribleToDebug)
 	with open(FileDebug, 'w') as DebugFile:
 		config.write(DebugFile)
     
